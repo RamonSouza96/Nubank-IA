@@ -1,0 +1,477 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Nubank'
+  ClientHeight = 602
+  ClientWidth = 378
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object RectBackground: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Size.Width = 378.000000000000000000
+    Size.Height = 602.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object RectHeader: TRectangle
+      Align = Top
+      Fill.Color = xFF8A05BE
+      Size.Width = 378.000000000000000000
+      Size.Height = 200.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object LayoutUserInfo: TLayout
+        Align = Top
+        Margins.Left = 15.000000000000000000
+        Margins.Top = 15.000000000000000000
+        Margins.Right = 15.000000000000000000
+        Position.X = 15.000000000000000000
+        Position.Y = 15.000000000000000000
+        Size.Width = 348.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object CircleAvatar: TCircle
+          Align = Left
+          Fill.Color = xFFA13FD1
+          Size.Width = 40.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object TextInitials: TText
+            Align = Client
+            Size.Width = 40.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'JS'
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.FontColor = claWhite
+          end
+        end
+        object TextUserName: TText
+          Align = Client
+          Margins.Left = 10.000000000000000000
+          Size.Width = 298.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Ol'#225', Jo'#227'o'
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+        end
+      end
+      object LayoutSaldo: TLayout
+        Align = Top
+        Margins.Left = 15.000000000000000000
+        Margins.Top = 15.000000000000000000
+        Margins.Right = 15.000000000000000000
+        Position.X = 15.000000000000000000
+        Position.Y = 80.000000000000000000
+        Size.Width = 348.000000000000000000
+        Size.Height = 80.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object TextSaldoLabel: TText
+          Align = Top
+          Size.Width = 348.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Saldo dispon'#237'vel'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+        end
+        object TextSaldoValue: TText
+          Align = Top
+          Position.Y = 30.000000000000000000
+          Size.Width = 348.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'R$ 7.582,30'
+          TextSettings.Font.Size = 26.000000000000000000
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Leading
+        end
+      end
+    end
+    object RectCardCredito: TRectangle
+      Align = Top
+      Fill.Color = claWhite
+      Margins.Left = 20.000000000000000000
+      Margins.Top = -30.000000000000000000
+      Margins.Right = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 170.000000000000000000
+      Size.Width = 338.000000000000000000
+      Size.Height = 100.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 8.000000000000000000
+      YRadius = 8.000000000000000000
+      object ShadowEffect1: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.200000002980232200
+        ShadowColor = claBlack
+      end
+      object LayoutCardContent: TLayout
+        Align = Client
+        Padding.Left = 20.000000000000000000
+        Padding.Top = 20.000000000000000000
+        Padding.Right = 20.000000000000000000
+        Padding.Bottom = 20.000000000000000000
+        Size.Width = 338.000000000000000000
+        Size.Height = 100.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object RectCardIcon: TRectangle
+          Align = Left
+          Fill.Color = claWhitesmoke
+          Position.X = 20.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 32.000000000000000000
+          Size.Height = 60.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 5.000000000000000000
+          YRadius = 5.000000000000000000
+        end
+        object LayoutCardInfo: TLayout
+          Align = Client
+          Margins.Left = 15.000000000000000000
+          Size.Width = 251.000000000000000000
+          Size.Height = 60.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object TextCardTitle: TText
+            Align = Top
+            Size.Width = 251.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Cart'#227'o de cr'#233'dito'
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.HorzAlign = Leading
+          end
+          object TextFaturaLabel: TText
+            Align = Top
+            Position.Y = 20.000000000000000000
+            Size.Width = 251.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Fatura atual'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.FontColor = xFF666666
+            TextSettings.HorzAlign = Leading
+          end
+          object TextFaturaValue: TText
+            Align = Top
+            Position.Y = 40.000000000000000000
+            Size.Width = 251.000000000000000000
+            Size.Height = 20.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'R$ 1.450,79'
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.FontColor = xFFC52132
+            TextSettings.HorzAlign = Leading
+          end
+        end
+      end
+    end
+    object LayoutMenuAcessoRapido: TLayout
+      Align = Top
+      Margins.Top = 10.000000000000000000
+      Position.Y = 280.000000000000000000
+      Size.Width = 378.000000000000000000
+      Size.Height = 120.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object ScrollBoxMenu: TScrollBox
+        Align = Client
+        Size.Width = 378.000000000000000000
+        Size.Height = 120.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ShowScrollBars = False
+        Viewport.Width = 378.000000000000000000
+        Viewport.Height = 120.000000000000000000
+        object LayoutMenuItems: TLayout
+          Size.Width = 600.000000000000000000
+          Size.Height = 120.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object LayoutPix: TLayout
+            Position.X = 15.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 80.000000000000000000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object CirclePix: TCircle
+              Align = Top
+              Fill.Color = claWhitesmoke
+              Margins.Left = 10.000000000000000000
+              Margins.Right = 10.000000000000000000
+              Position.X = 10.000000000000000000
+              Size.Width = 60.000000000000000000
+              Size.Height = 60.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object TextPixIcon: TText
+                Align = Client
+                Size.Width = 60.000000000000000000
+                Size.Height = 60.000000000000000000
+                Size.PlatformDefault = False
+                Text = 'Pix'
+                TextSettings.Font.Size = 14.000000000000000000
+                TextSettings.FontColor = xFF8A05BE
+              end
+            end
+            object TextPixLabel: TText
+              Align = Top
+              Margins.Top = 5.000000000000000000
+              Position.Y = 65.000000000000000000
+              Size.Width = 80.000000000000000000
+              Size.Height = 20.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'Pix'
+              TextSettings.Font.Size = 14.000000000000000000
+            end
+          end
+          object LayoutPagar: TLayout
+            Position.X = 105.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 80.000000000000000000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object CirclePagar: TCircle
+              Align = Top
+              Fill.Color = claWhitesmoke
+              Margins.Left = 10.000000000000000000
+              Margins.Right = 10.000000000000000000
+              Position.X = 10.000000000000000000
+              Size.Width = 60.000000000000000000
+              Size.Height = 60.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object TextPagarIcon: TText
+                Align = Client
+                Size.Width = 60.000000000000000000
+                Size.Height = 60.000000000000000000
+                Size.PlatformDefault = False
+                Text = '$'
+                TextSettings.Font.Size = 24.000000000000000000
+                TextSettings.FontColor = xFF8A05BE
+              end
+            end
+            object TextPagarLabel: TText
+              Align = Top
+              Margins.Top = 5.000000000000000000
+              Position.Y = 65.000000000000000000
+              Size.Width = 80.000000000000000000
+              Size.Height = 20.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'Pagar'
+              TextSettings.Font.Size = 14.000000000000000000
+            end
+          end
+          object LayoutTransferir: TLayout
+            Position.X = 195.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 80.000000000000000000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            object CircleTransferir: TCircle
+              Align = Top
+              Fill.Color = claWhitesmoke
+              Margins.Left = 10.000000000000000000
+              Margins.Right = 10.000000000000000000
+              Position.X = 10.000000000000000000
+              Size.Width = 60.000000000000000000
+              Size.Height = 60.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object TextTransferirIcon: TText
+                Align = Client
+                Size.Width = 60.000000000000000000
+                Size.Height = 60.000000000000000000
+                Size.PlatformDefault = False
+                Text = '#8594;'
+                TextSettings.Font.Size = 24.000000000000000000
+                TextSettings.FontColor = xFF8A05BE
+              end
+            end
+            object TextTransferirLabel: TText
+              Align = Top
+              Margins.Top = 5.000000000000000000
+              Position.Y = 65.000000000000000000
+              Size.Width = 80.000000000000000000
+              Size.Height = 20.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'Transferir'
+              TextSettings.Font.Size = 14.000000000000000000
+            end
+          end
+          object LayoutDepositar: TLayout
+            Position.X = 285.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 80.000000000000000000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+            object CircleDepositar: TCircle
+              Align = Top
+              Fill.Color = claWhitesmoke
+              Margins.Left = 10.000000000000000000
+              Margins.Right = 10.000000000000000000
+              Position.X = 10.000000000000000000
+              Size.Width = 60.000000000000000000
+              Size.Height = 60.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object TextDepositarIcon: TText
+                Align = Client
+                Size.Width = 60.000000000000000000
+                Size.Height = 60.000000000000000000
+                Size.PlatformDefault = False
+                Text = '#8595;'
+                TextSettings.Font.Size = 24.000000000000000000
+                TextSettings.FontColor = xFF8A05BE
+              end
+            end
+            object TextDepositarLabel: TText
+              Align = Top
+              Margins.Top = 5.000000000000000000
+              Position.Y = 65.000000000000000000
+              Size.Width = 80.000000000000000000
+              Size.Height = 20.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'Depositar'
+              TextSettings.Font.Size = 14.000000000000000000
+            end
+          end
+          object LayoutCobrar: TLayout
+            Position.X = 375.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 80.000000000000000000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 4
+            object CircleCobrar: TCircle
+              Align = Top
+              Fill.Color = claWhitesmoke
+              Margins.Left = 10.000000000000000000
+              Margins.Right = 10.000000000000000000
+              Position.X = 10.000000000000000000
+              Size.Width = 60.000000000000000000
+              Size.Height = 60.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object TextCobrarIcon: TText
+                Align = Client
+                Size.Width = 60.000000000000000000
+                Size.Height = 60.000000000000000000
+                Size.PlatformDefault = False
+                Text = '$+'
+                TextSettings.Font.Size = 24.000000000000000000
+                TextSettings.FontColor = xFF8A05BE
+              end
+            end
+            object TextCobrarLabel: TText
+              Align = Top
+              Margins.Top = 5.000000000000000000
+              Position.Y = 65.000000000000000000
+              Size.Width = 80.000000000000000000
+              Size.Height = 20.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'Cobrar'
+              TextSettings.Font.Size = 14.000000000000000000
+            end
+          end
+          object LayoutInvestir: TLayout
+            Position.X = 465.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 80.000000000000000000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 5
+            object CircleInvestir: TCircle
+              Align = Top
+              Fill.Color = claWhitesmoke
+              Margins.Left = 10.000000000000000000
+              Margins.Right = 10.000000000000000000
+              Position.X = 10.000000000000000000
+              Size.Width = 60.000000000000000000
+              Size.Height = 60.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              object TextInvestirIcon: TText
+                Align = Client
+                Size.Width = 60.000000000000000000
+                Size.Height = 60.000000000000000000
+                Size.PlatformDefault = False
+                Text = '#8599;'
+                TextSettings.Font.Size = 24.000000000000000000
+                TextSettings.FontColor = xFF8A05BE
+              end
+            end
+            object TextInvestirLabel: TText
+              Align = Top
+              Margins.Top = 5.000000000000000000
+              Position.Y = 65.000000000000000000
+              Size.Width = 80.000000000000000000
+              Size.Height = 20.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'Investir'
+              TextSettings.Font.Size = 14.000000000000000000
+            end
+          end
+        end
+      end
+    end
+    object RectAtividades: TRectangle
+      Align = Client
+      Fill.Color = claWhitesmoke
+      Margins.Top = 10.000000000000000000
+      Size.Width = 378.000000000000000000
+      Size.Height = 192.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object TextAtividadesTitle: TText
+        Align = Top
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 15.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 15.000000000000000000
+        Size.Width = 358.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Atividade recente'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.HorzAlign = Leading
+      end
+      object ListView1: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        Align = Client
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 358.000000000000000000
+        Size.Height = 132.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        ItemAppearance.ItemHeight = 60
+        ShowSelection = False
+      end
+    end
+  end
+end
