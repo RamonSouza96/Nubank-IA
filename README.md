@@ -2,6 +2,8 @@
 
 Repositório contendo um exemplo de recriação da interface do Nubank desenvolvida com Delphi Firemonkey 12.2, gerada por Inteligência Artificial da anthropic IA Cloud.
 
+https://www.youtube.com/watch?v=EzPyrHBgbuA
+
 ## Sobre o Projeto
 
 Este projeto demonstra o poder da integração entre desenvolvimento Delphi e Inteligência Artificial na criação de interfaces modernas. A IA foi utilizada para gerar um código FMX completo que reproduz com alta fidelidade a interface do aplicativo Nubank, incluindo todos os elementos visuais característicos:
